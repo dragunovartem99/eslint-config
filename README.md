@@ -16,8 +16,8 @@ npm install --save-dev @dragunovartem99/eslint-config
 ```json
 {
     "scripts": {
-	  	  "lint": "eslint",
-        "lint:fix": "eslint --fix"
+		"lint": "eslint --fix",
+        "lint:check": "eslint"
     },
 }
 ```
@@ -34,10 +34,10 @@ export { default } from "@dragunovartem99/eslint-config";
 npm run lint
 ```
 
-Or try to fix as many issues as possible:
+Or check linting without modifications:
 
 ```shell
-npm run lint:fix
+npm run lint:check
 ```
 
 ## Creating your own configuration
