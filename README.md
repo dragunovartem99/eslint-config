@@ -16,9 +16,9 @@ npm install --save-dev @dragunovartem99/eslint-config
 ```json
 {
     "scripts": {
-		"lint": "eslint --fix",
+        "lint": "eslint --fix",
         "lint:check": "eslint"
-    },
+    }
 }
 ```
 
