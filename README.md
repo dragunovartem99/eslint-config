@@ -11,7 +11,7 @@ npm install --save-dev @dragunovartem99/eslint-config
 
 ## Usage
 
-1. Add the configuration to your project's `package.json`:
+1. Add scripts to your project's `package.json`:
 
 ```json
 {
